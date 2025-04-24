@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url(../58f46290a869787aa18c.jpg) 0 0 / cover no-repeat;
+}
+
+@font-face {
+  font-family: "Lobster";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Lobster"), url(../4eeaa4f7000aaba65e92.woff2) format("woff2"), url(../80036926aa0e6dfadeef.woff) format("woff"), url(../4524cf4c3aa7260ee42c.eot) format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "DancingScript";
+  font-weight: 400;
+  font-style: normal;
+  src: local("DancingScript"), url(../e4aaf843b9ebb2712abd.woff2) format("woff2"), url(../8a269a5e44015996cd27.ttf) format("ttf"), url(../339bcd44fe89363f623b.eot) format("eot");
+  font-display: swap;
+}
+.home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.home__inner {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 12px;
+  margin: 30px;
+  background: #ffffff71;
+}
+.home__title {
+  margin-bottom: 20px;
+  width: 600px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.home__header {
+  font-size: 40px;
+  color: #19535b;
+}
+.home__name {
+  font-size: 50px;
+  color: #63d06ad3;
+  align-self: flex-end;
+  font-family: Lobster, sans-serif;
+}
+.home__junior {
+  font-family: DancingScript, sans-serif;
+}
+
+
+
+
+.myBtn {
+  background: transparent;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 20px;
+}
+.myBtn:hover {
+  transition: all 0.3s;
+  transform: scale(1.09);
+  box-shadow: 3px 4px 20px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgba(95, 158, 160, 0.644);
+}
+
+.navbar {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 30px;
+}
+.navbar__logo {
+  overflow: hidden;
+  cursor: pointer;
+}
+.navbar__logo:hover {
+  transition: all 0.3s;
+  transform: scale(1.09);
+  box-shadow: 3px 4px 20px 4px rgba(0, 0, 0, 0.5);
+}
+.navbar__logo img {
+  vertical-align: middle;
+  border-radius: 4px;
+}
+.navbar__btns {
+  margin-right: 3px;
+}
+.navbar__btns button {
+  margin-right: 15px;
+}
+
+
+/*# sourceMappingURL=main.219517a7.css.map*/

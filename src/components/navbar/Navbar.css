@@ -1,0 +1,38 @@
+.navbar {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 30px;
+}
+.navbar__logo {
+  overflow: hidden;
+  cursor: pointer;
+}
+.navbar__logo:hover {
+  transition: all 0.3s;
+  transform: scale(1.09);
+  box-shadow: 3px 4px 20px 4px rgba(0, 0, 0, 0.5);
+}
+.navbar__logo img {
+  vertical-align: middle;
+  border-radius: 4px;
+}
+.navbar__btns {
+  margin-right: 3px;
+}
+.navbar__btns button {
+  margin-right: 15px;
+}
+@media (max-width: 650px) {
+  .myBtn {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  .btns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

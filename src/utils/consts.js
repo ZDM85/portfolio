@@ -1,0 +1,10 @@
+export const HOME = "/";
+export const ABOUT = "/about";
+export const SKILLS = "/skills";
+export const PROJECTS = "/projects";
+export const SHOP = "https://github.com/ZDM85/store_online_client-";
+export const MERN = "https://github.com/ZDM85/Cloud-mern";
+export const TELEGA = "https://t.me/zabanovd";
+export const VK = "https://vk.com/faq18366";
+export const MAIL = "https://mail.yandex.ru/";
+export const TWITTER = "https://twitter.com/";
